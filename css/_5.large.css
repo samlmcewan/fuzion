@@ -1,5 +1,18 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+/* Header - large devices */
+   .logo-top img {
+        width: 150px;
+   }
 
+/* Main Navigation - large devices */
+#main-nav .nav-link {
+    font-size: 1rem;
+}
+
+#main-nav .container {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
 }
