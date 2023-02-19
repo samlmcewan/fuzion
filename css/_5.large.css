@@ -15,4 +15,8 @@
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
 }
+#main-nav .nav-link.active {
+    background-color: transparent;
+    border-bottom: solid 3px #ffffff;
+}
 }
