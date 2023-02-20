@@ -255,3 +255,34 @@ a {
 .special-offer p,  .special-offer a {
     color: #ffffff;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    background-color: var(--greyFooter);
+    color: #ffffff;
+    font-weight: 600;
+}
+.social i {
+    font-size: 4rem;
+
+    transition: all 0.3s;
+}
+.social i:hover {
+    color: #ffffff;
+}
+.logo-bottom {
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+.logo-bottom img {
+    width: 150px;
+}
+
+.sub {
+    color: var(--greyDark);
+    font-size: .875rem;
+    font-weight: 400;
+}

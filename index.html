@@ -91,7 +91,7 @@
             <img class="w-100" src="img/fuzion-banner6.png" />
         </div>
         <!-- End Hero -->
-        <div class="container-fluid bg-gl">
+        <div class="container-fluid bg-gl pb-5 pb-lg-0">
             <div class="container">
                 <div class="row">
 
@@ -195,11 +195,11 @@
 
                     </div> <!-- End Landing Cards  -->
 
-                    <div class="col-lg-4 py-5">
+                    <div class="col-lg-4 py-0 py-lg-5">
                         <div class="right-col bg-white p-4">
 
                             <!-- Special offer -->
-                            <div class="special-offer d-flex flex-column align-items-center">
+                            <div class="special-offer d-flex flex-column align-items-center py-2">
                                 <i class="bi bi-star-fill"></i>
                                 <div>
                                     <h2 class="mb-4">Special Offer</h2>
@@ -209,7 +209,7 @@
                             </div><!-- End Special offer -->
 
                             <!-- Services list -->
-                            <div class="services-list py-5 px-2">
+                            <div class="services-list pt-4 pb-5 px-2">
                                 <h2>Services</h2>
                                 <ul class="list-unstyled">
                                     <li class="py-1"><a href="#"><i class="bi-chevron-right me-1"></i>Windows</a></li>
@@ -229,23 +229,55 @@
                                     <li class="py-1"><a href="#"><i class="bi-chevron-right me-1"></i>Central Heating</a></li>
                                     <li class="py-1"><a href="#"><i class="bi-chevron-right me-1"></i>Energy Efficient Boilers</a></li>
                                 </ul>
-                            </div>
-
-                        </div>
-                        
-
-                    </div>
-                
+                            </div> <!-- End Services list -->
+                        </div><!-- End .right-col -->
+                    </div><!-- End .col-lg-4 -->
                 </div><!-- End .row -->
-                
-
-                
-
             </div><!-- End .container -->
         </div><!-- End .container-fluid -->
+
+        <!-- Footer -->
+        <footer class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="mb-1">© 2010-<span id="year"></span> Fuzion Home Improvements - <em>Home Improvements Glasgow, Scotland</em></p>
+                        <p class="mb-1"></p>Suite 23, 48 West George Street, Glasgow. G2 1BP
+                        <p class="mb-1"></p> Tel: 0141 255 0314
+                        <p class="mb-1"></p> Email: info@fuzionhomeimprovements.co.uk
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-center social py-4 py-lg-0">
+                        <a href="#"><i class="bi bi-twitter me-4"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center justify-content-lg-end">
+                        <div class="logo-bottom p-3">
+                            <img class="img-fluid" src="img/fuzion.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sub Footer  -->
+            <div class="container pt-4 sub">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p>
+                            <a href="#">Windows</a>, <a href="#">Doors</a>, <a href="#">Kitchens</a>, <a href="#">Bathrooms</a>, <a href="#">Conservatories & Sunrooms</a>, <a href="#">Garages & Loft Conversions</a>, <a href="#">Flooring</a>, <a href="#">Canopies & Porches</a>, <a href="#">Car Ports</a>,<a href="#">Alarms</a>, <a href="#">Decking</a>, <a href="#">Roofline</a>, <a href="#">All Joinery Work</a>, <a href="#">House Extensions, <a href="#">Central Heating</a>, <a href="#">Energy Efficient Boilers</a>
+                        </p>
+                        <p  class="mb-0">
+                            Web Design: <a href="https://www.jolliedesign.co.uk/">Jollie Design</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!-- End Sub Footer  -->
+        </footer><!-- End Footer -->
         
         <!-- Scripts  -->
         <script src='/scripts/bootstrap.bundle.min.js'></script>  
-        <script src='/scripts/burger-toggle.js'></script>  
+        <script src='/scripts/burger-toggle.js'></script>
+        <script>
+        // Current year in footer  
+            document.querySelector('#year').innerHTML = new Date().getFullYear().toString();
+        </script> 
     </body>
 </html>
