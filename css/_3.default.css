@@ -5,12 +5,26 @@
 --------------------------------------------------------------*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--greyDark)
 }
 
 h1, h2 {
+    color: var(--navy);
     font-weight: 600;
 }
+.dark-text {
+    color: var(--greyDark);
+}
 
+a {
+    color: var(--blue);
+}
+.bg-gl {
+    background-color: var(--greyLight);
+}
+.bg-white {
+    background-color: #ffffff;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -151,9 +165,6 @@ h1, h2 {
 /*--------------------------------------------------------------
 # Landing Cards
 --------------------------------------------------------------*/
-.bg-gl {
-    background-color: var(--greyLight);
-}
 .landing-cards .card, .landing-cards .card-border, .landing-cards .card img {
     border-radius: 20px;
 }
@@ -219,4 +230,28 @@ h1, h2 {
 .icon-buttons .btn:hover {
     background-color: #ffffff;
     color: var(--blue);
+}
+
+/*--------------------------------------------------------------
+# Special Offer
+--------------------------------------------------------------*/
+.right-col {
+    border-radius: 20px;
+}
+.special-offer {
+    background-color: var(--blue);
+    border-radius: 20px;
+    border: 8px solid var(--greyLight);
+}
+
+.special-offer .bi-star-fill {
+    color: var(--blueLight);
+    font-size: 4rem;
+}
+.special-offer h2 {
+    color: var(--blueLight);
+    font-size: 2.5rem;
+}
+.special-offer p,  .special-offer a {
+    color: #ffffff;
 }

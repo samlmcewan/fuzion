@@ -3,7 +3,9 @@
 :root {
     --navy: #003366;
     --blue: #166EB2;
+    --blueLight: #83CFF0;
     --grey: #ACC0C7;
     --grey90: #ACC0C7E6;
     --greyLight: #E2E6E9;
+    --greyDark: #666666;
 }
